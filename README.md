@@ -32,8 +32,6 @@ This is not a data problem. It is a **record linkage \+ identity resolution fail
 
 ---
 
-## 
-
 ## **2\. What We Are Building**
 
 A **two-part platform** that runs alongside existing systems (no migration, no disruption):
@@ -53,7 +51,6 @@ A **two-part platform** that runs alongside existing systems (no migration, no d
 
 ---
 
-# 
 
 # **3\. End-to-End Execution Flow**
 
@@ -108,8 +105,6 @@ Normalization is deterministic (Python pipeline):
 **Why not LLMs?** Non-deterministic \+ PII risk.
 
 ---
-
-## 
 
 ## **4.2 Blocking (Scaling Problem)**
 
@@ -249,8 +244,6 @@ Evidence:
 
 ---
 
-# 
-
 # **7\. Data Flow: Part A to Part B**
 
 ![data flow a to b](./images/data%20flow%20part%20a%20to%20part%20b.png)
@@ -258,8 +251,6 @@ Evidence:
 UBID converts fragmented records into a **time-series identity layer**.
 
 ---
-
-# 
 
 # **8\. System Architecture**
 
@@ -283,8 +274,6 @@ Key properties:
 
 ---
 
-# 
-
 # **10\. What Breaks This System**
 
 | Risk | Mitigation |
@@ -306,8 +295,6 @@ Key properties:
 This is the transformation: **disconnected records TO unified business identity**
 
 ---
-
-# 
 
 # **12\. Technology Stack**
 
